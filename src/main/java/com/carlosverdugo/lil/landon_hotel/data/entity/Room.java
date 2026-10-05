@@ -10,7 +10,7 @@ import lombok.Data;
 import lombok.ToString;
 
 @Entity 
-@Table(name="rooms")
+@Table(name="rooms", schema = "LIL")
 @Data 
 @ToString 
 public class Room {
